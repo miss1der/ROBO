@@ -22,14 +22,26 @@
           <block type="controls_repeat" id="74" inline="true">
             <value name="TIMES">
               <block type="math_number" id="81">
-                <field name="NUM">266677</field>
+                <field name="NUM">133333</field>
               </block>
             </value>
             <statement name="DO">
               <block type="movement_forward" id="57"></block>
             </statement>
             <next>
-              <block type="movement_stop" id="47"></block>
+              <block type="controls_repeat" id="98" inline="true">
+                <value name="TIMES">
+                  <block type="math_number" id="105">
+                    <field name="NUM">65000</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block type="movement_right" id="91"></block>
+                </statement>
+                <next>
+                  <block type="movement_stop" id="47"></block>
+                </next>
+              </block>
             </next>
           </block>
         </next>
