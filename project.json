@@ -1,0 +1,10 @@
+{
+    "name": "ROBO",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "ROBO.xml",
+    "author": "miss1der",
+    "minimum_firmware_version": 42
+}
